@@ -42,7 +42,7 @@ const resumeData = {
   
   For professional work, my current area of interest lies in the Quality Assurance (QA) domain of Software Engineering. Specifically, I am interested in learning more about test automation techniques. Till date, I have a reasonable amount of exposure to QA, conducting GUI regression and API test automations for some of my internships. I foresee myself working as a professional QA Test Engineer in the future. Nonetheless, I am open to exploring other roles in Software Engineering for my own personal development and enrichment.
   
-  Apart from that, I have some experience working with ReactJS for frontend UI and Django RESTful API for backend databases. Please refer to my portfolio for the various works I have done with these technologies. Please note that my portfolio works are my personal projects. I am involved in external projects as well. However, I do not post projects that I have done for my clients, or which I have received salary renumerations or monetary awards (e.g Internships, Competitions) from. There are prohibitory clauses in contracts I have signed which restricts me from doing so.
+  Apart from that, I have some experience working with ReactJS for frontend UI and Django RESTful API for backend databases. Please refer to my portfolio for the various works I have done with these technologies. Please note that my portfolio works are my personal projects. I am involved in external projects as well. However, I do not post projects that I have done for my clients, or which I have received salary renumerations or monetary awards from (e.g Internships, Competitions). There are prohibitory clauses in contracts I have signed which restricts me from doing so.
   
   My personal life philosophy is to always give new things a try if an opportunity arises. If there is an interesting project that I can work on, please do contact me over Telegram using the blue "Contact Me Here" button located at the top right hand corner of the site.
   `,
@@ -164,17 +164,24 @@ const resumeData = {
   projects: [
     {
       tag: "ReactJS",
-      images: [IMAGES.personalResume1, IMAGES.personalResume2, IMAGES.personalResume3],
+      images: [
+        IMAGES.personalResume1,
+        IMAGES.personalResume2,
+        IMAGES.personalResume3,
+      ],
       title: "Personal Resume",
       caption: "A personal resume that I built using ReactJS",
       description: `This resume was built by referencing to Samal Fazal's "React JS Resume" and Portfolio with Material UI playlist on Youtube.
       I subsequently finetuned the resume to my personal liking.`,
       links: [
-        {link: "https://github.com/junlong4321/Resume", icon: <GitHubIcon />},
-        {link: "https://junlong4321.github.io/Resume/", icon: <LanguageIcon />},
         {
           link: "https://www.youtube.com/playlist?list=PLISG6SSQ9nqyuuTjr2cDApJlY9-K3jrn1",
           icon: <YouTubeIcon />,
+        },
+        { link: "https://github.com/junlong4321/Resume", icon: <GitHubIcon /> },
+        {
+          link: "https://junlong4321.github.io/Resume/",
+          icon: <LanguageIcon />,
         },
       ],
     },
@@ -190,7 +197,8 @@ const resumeData = {
         IMAGES.theFreeMarket7,
       ],
       title: "The Free Market",
-      caption: "NUS Year 1 CP2106 Independent Software Development Project (Orbital)",
+      caption:
+        "NUS Year 1 CP2106 Independent Software Development Project (Orbital)",
       description: `
       NUS Orbital is an independent software engineering project taken by year 1 NUS SoC students in teams of two.
 
@@ -286,6 +294,10 @@ const resumeData = {
 `,
       links: [
         { link: "https://github.com/junlong4321/tp", icon: <GitHubIcon /> },
+        {
+          link: "https://ay2021s1-cs2103t-t10-4.github.io/tp/",
+          icon: <LanguageIcon />,
+        },
       ],
     },
   ],

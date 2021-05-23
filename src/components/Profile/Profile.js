@@ -1,9 +1,7 @@
 import { Typography } from "@material-ui/core";
 import FaceIcon from "@material-ui/icons/Face";
-import GetAppIcon from "@material-ui/icons/GetApp";
 import React from "react";
 import resumeData from "../../utils/resumeData";
-import CustomButton from "../Button/Button";
 import CustomTimeline, { CustomProfileTimelineItem } from "../Timeline/Timeline";
 import "./Profile.css";
 
