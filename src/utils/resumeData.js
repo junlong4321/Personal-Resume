@@ -96,7 +96,7 @@ const resumeData = {
     },
     {
       title: `NUS Business School
-      Department of Strategic and Policy
+      Department of Strategy and Policy
       Research Assistant`,
       date: "01 December 2019 – 13 January 2020 (2 Months)",
       description: `Roles and Responsibilities:
