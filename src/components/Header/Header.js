@@ -13,7 +13,7 @@ const Header = (props) => {
     /* Sticky allows header to be present even as we scroll downwards */
     <Navbar expand="lg" sticky="top" className="header">
       {/* Link to Home Page (On the resume site this is the "Home" icon) */}
-      <Nav.Link as={NavLink} to="/" className="header_navlink">
+      <Nav.Link as={NavLink} to="/Resume" className="header_navlink">
         <Navbar.Brand className="header_home">
           {/* Home Logo */}
           <HomeRounded />
@@ -28,8 +28,8 @@ const Header = (props) => {
           {/* Resume Link */}
           <Nav.Link
             as={NavLink}
-            to="/"
-            className={pathName === "/" ? "header_link_active" : "header_link"}
+            to="/Resume"
+            className={pathName === "/Resume" ? "header_link_active" : "header_link"}
           >
             Resume
           </Nav.Link>
@@ -37,9 +37,9 @@ const Header = (props) => {
           {/* Portfolio Link */}
           <Nav.Link
             as={NavLink}
-            to="/portfolio"
+            to="/Portfolio"
             className={
-              pathName === "/portfolio" ? "header_link_active" : "header_link"
+              pathName === "/Portfolio" ? "header_link_active" : "header_link"
             }
           >
             Portfolio
