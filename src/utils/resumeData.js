@@ -170,8 +170,8 @@ const resumeData = {
       description: `This resume was built by referencing to Samal Fazal's "React JS Resume" and Portfolio with Material UI playlist on Youtube.
       I subsequently finetuned the resume to my personal liking.`,
       links: [
-        // {link: "https://www.google.com", icon: <GitHubIcon />},
-        // {link: "https://www.google.com", icon: <LanguageIcon />},
+        {link: "https://github.com/junlong4321/Resume", icon: <GitHubIcon />},
+        {link: "https://junlong4321.github.io/Resume/", icon: <LanguageIcon />},
         {
           link: "https://www.youtube.com/playlist?list=PLISG6SSQ9nqyuuTjr2cDApJlY9-K3jrn1",
           icon: <YouTubeIcon />,
