@@ -1,0 +1,75 @@
+/* Tabs */
+.customTabs .active {
+  color: var(--underline-color) !important;
+}
+
+.customTabs .customTabs_item {
+  padding: 0px !important;
+  margin-right: 20px !important;
+  font-size: 14px !important;
+  outline-width: 0px !important;
+  /* font-weight: 400 !important; */
+  /* text-transform: inherit !important; */
+  /* min-width: 0px !important; */
+}
+/* End of tabs */
+
+/* Cards */
+.customCard {
+  height: 100%;
+  max-width: 350px;
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+  border-radius: 5px;
+  overflow: hidden;
+  outline-width: 0px !important;
+}
+
+.customCard .customCard_image {
+  height: 140px;
+}
+
+.customCard .customCard_title {
+  font-weight: 500;
+}
+
+.customCard .customCard_caption {
+  color: gray !important;
+  font-weight: 400;
+  white-space: pre-line !important;
+}
+/* End of cards */
+
+/* Dialog */
+.projectDialog .projectDialog_image {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.projectDialog .projectDialog_description {
+  margin-top: 10px !important;
+  white-space: pre-line !important;
+  text-align: justify !important;
+  line-height: 30px;
+}
+
+.projectDialog .projectDialog_actions {
+  justify-content: center !important;
+  margin-bottom: 10px;
+}
+
+.projectDialog .projectDialog_icon {
+  color: darkslategray;
+  margin: 0px 12px;
+  cursor: pointer;
+}
+
+.projectDialog .projectDialog_icon :hover {
+  color: var(--clickable-color);
+}
+
+.projectDialog .projectDialog_icon > .MuiSvgIcon-root {
+  font-size: 30px !important;
+}
+/* End of dialog */

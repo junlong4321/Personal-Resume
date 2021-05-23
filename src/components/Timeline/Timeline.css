@@ -1,0 +1,78 @@
+.timeline {
+  padding: 0 !important;
+}
+
+/* Header */
+
+/* Header title */
+.timeline .timeline_header {
+  padding-top: 7px;
+}
+
+.timeline .timeline_firstItem {
+  min-height: 80px !important;
+}
+
+.timeline .MuiTimelineItem-root {
+  min-height: 0px;
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+
+.timeline .timeline_dot_header {
+  color: black !important;
+  background-color: var(--main-color) !important;
+  font-size: small !important;
+  padding: 10px !important;
+}
+
+/* Remaining Items */
+.timeline .timeline_dot {
+  color: black !important;
+  border-color: var(--main-color) !important;
+  padding: 2px !important;
+}
+
+.timeline .MuiTimelineConnector-root {
+  background-color: #eee !important;
+}
+
+.timeline .timeline_dot_header > .MuiSvgIcon-root {
+  font-size: 20px;
+  color: darkslategrey;
+}
+
+.timeline .separator_padding {
+  padding-left: 18px !important;
+}
+
+.timeline .timeline_content {
+  padding-top: 0px !important;
+  margin-bottom: 20px;
+}
+
+.timeline .work_content {
+  padding-top: 0px !important;
+}
+
+.timeline .work_content .timeline_title {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  white-space: pre-line !important;
+  text-align: justify !important;
+}
+
+.timeline .work_content .timeline_date {
+  color: darkslategray;
+}
+
+.timeline .work_content .timeline_description {
+  color: gray;
+  font-size: small;
+  margin-top: 6px;
+  white-space: pre-line !important;
+  text-align: justify !important;
+  line-height: 16px;
+}
