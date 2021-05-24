@@ -1,6 +1,6 @@
 import { Container, Grid } from "@material-ui/core";
-import React, { useEffect } from "react";
-import ReactGa from "react-ga";
+import React from "react";
+import ReactGA from "react-ga";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
@@ -11,10 +11,8 @@ import Resume from "./pages/Resume/Resume";
 
 function App() {
   // Set up Google Analytics
-  useEffect(() => {
-    ReactGa.initialize("G-F8H1RX9RKS");
-    ReactGa.pageview(window.location.pathname);
-  }, []);
+  ReactGA.initialize("UA-197684670-1");
+  ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
     <Container className={"top_60"}>
