@@ -1,0 +1,9 @@
+/* About me section */
+/* white-space: pre-line allows for \n to work in paragraphs*/
+.aboutme_text {
+    color: darkslategray !important;
+    white-space: pre-line !important;
+    text-align: justify !important;
+    line-height: 20px !important;
+  }
+  

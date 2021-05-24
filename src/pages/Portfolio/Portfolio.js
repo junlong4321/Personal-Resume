@@ -15,6 +15,7 @@ import {
 } from "@material-ui/core";
 import React, { useState } from "react";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
+import Title from "../../components/Title/Title";
 import resumeData from "../../utils/resumeData";
 import "./Portfolio.css";
 
@@ -61,11 +62,7 @@ const Portfolio = () => {
   return (
     <Grid container className="section pb_45 pt_45">
       {/* Title */}
-      <Grid item className="section_title mb_20">
-        <span></span>
-        <h6 className="section_title_text">Portfolio</h6>
-      </Grid>
-
+      <Title title={"Portfolio"} />
       {/* Tabs */}
       <Grid item xs={12}>
         <Tabs
@@ -118,6 +115,7 @@ const Portfolio = () => {
                       onClick={() => setProjectDialog(project)}
                     >
                       <CardActionArea>
+                        {/* Default card image is project.images[0]*/ }
                         <CardMedia
                           className="customCard_image"
                           image={project.images[0]}
