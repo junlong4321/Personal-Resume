@@ -88,7 +88,7 @@ const resumeData = {
     },
     {
       title: `NUS Engineering
-      Industrial Systems Engineering & Management
+      Industrial Systems Engineering and Management
       Quality Assurance Intern`,
       date: "01 December 2020 – 31 January 2021 (2 Months)",
       description: `Roles and Responsibilities:
