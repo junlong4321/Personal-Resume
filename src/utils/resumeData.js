@@ -51,9 +51,9 @@ const resumeData = {
     {
       title: `NUS Orbital 2020: Project “The Free Market” – Judge’s Choice Award
       Difficulty: Artemis (Extreme – Highest Difficulty)`,
-      description: `NUS Orbital is an independent software engineering project taken by year 1 NUS SoC students in teams of two.
+      description: `NUS Orbital is an independent software engineering project taken by year 1 NUS SoC students in teams of two
 
-      The Judge's Choice award is given to the three top teams who have not only completed a solid application with an extensive set of core features and extensions, but also demonstrated great effort in following good software engineering practices and principles. Apart from that, these teams produced high-quality documentation and conducted extensive system and user testing.`,
+      The Judge's Choice award is given to the three top teams who have not only completed a solid application with an extensive set of core features and extensions, but also demonstrated great effort in following good software engineering practices and principles. Apart from that, these teams produced high-quality documentation and conducted extensive system and user testing`,
     },
     {
       title: "NUS LifeHack Healthcare AI Datathon 2020 – 1st Runner Up",
@@ -61,8 +61,8 @@ const resumeData = {
       (Supervised Learning - Image Classification) - Construct a prediction model for predicting eye diseases using the following dataset - https://www.kaggle.com/jr2ngb/cataractdataset
       
       Approach -
-      1. Image Preprocessing: Segmented Retinal Blood Vessels Based Feature Extraction by extracting Mean, Standard Deviation, Kurtosis, Energy, and Entropy of image + Binarize images using adaptive gaussian thresholding.
-      2. Model ensembling with Random Forests, Gradient Boosting, and Support Vector Machine learning algorithms.
+      1. Image Preprocessing: Segmented Retinal Blood Vessels Based Feature Extraction by extracting Mean, Standard Deviation, Kurtosis, Energy, and Entropy of image + Binarize images using adaptive gaussian thresholding
+      2. Model ensembling with Random Forests, Gradient Boosting, and Support Vector Machine learning algorithms
       3. Classification method utilised- One Vs All Image Binary Classification
       4. Accuracy of model ensembling attained - 96.4%`,
     },
@@ -74,23 +74,34 @@ const resumeData = {
       Approach -
       1. Bing API for Data Collection
       2. Deep Lab Image Segmentation API with pre-trained Xception Model, as well as Pluralistic Inpainting for dataset expansion
-      3. Training pre trained Imagenet models, and using model ensemble (DenseNets, ResNets, EfficientNets) to come up with weighted averages for predictions`,
+      3. Training pre trained Imagenet models, and using model ensemble (DenseNets, ResNets, EfficientNets) to come up with weighted averages for predictions
+      4. Accuracy attained - 95.7% on 11 classes of poses, 85.5% when curveball of an additional 4 classes (15 classes of poses in total) were thrown`,
     },
   ],
 
   experiences: [
     {
+      title: `NUS Faculty of Arts and Social Sciences
+      Department of Psychology
+      Student Researcher (Frontend)`,
+      date: `07 June 2021 – Present`,
+      description: `Roles and Responsibilities:
+      1. Greenfield multi-step survey form creation using ReactJS. (Agenda - Collection of free associations to Singapore English words from site visitors)
+      2. Wireframing of site design
+      3. GUI and Regression Testing for frontend interface`,
+    },
+    {
       title: `Defence Science and Technology Agency (DSTA)
       Enterprise IT
-      Software Engineering Intern`,
-      date: "10 May 2021 – 30 July 2021 (3 Months)",
-      description: "<Classified>",
+      Software Engineering Intern (Frontend)`,
+      date: `10 May 2021 – Present`,
+      description: `<Classified>`,
     },
     {
       title: `NUS Engineering
       Industrial Systems Engineering and Management
       Quality Assurance Intern`,
-      date: "01 December 2020 – 31 January 2021 (2 Months)",
+      date: `01 December 2020 – 31 January 2021 (2 Months)`,
       description: `Roles and Responsibilities:
       1. API unit test planning, writing, and automation for NUSmart Dining mobile application with Postman API Dev Tool`,
     },
@@ -98,14 +109,14 @@ const resumeData = {
       title: `NUS Business School
       Department of Strategy and Policy
       Research Assistant`,
-      date: "01 December 2019 – 13 January 2020 (2 Months)",
+      date: `01 December 2019 – 13 January 2020 (2 Months)`,
       description: `Roles and Responsibilities:
       1. Data retrieval with Web of Science / Web of Knowledge API using Python`,
     },
     {
       title: `Oddle
       Quality Assurance Engineer Intern`,
-      date: "07 January 2019 - 31 May 2019 (5 Months)",
+      date: `07 January 2019 - 31 May 2019 (5 Months)`,
       description: `Roles and Responsibilities :
       1. Creation of detailed, well-structured test cases for Oddle Shop Manual testing of products and recording bugs or performance issues
       2. Development of automated regression testing scripts with Katalon Studio
@@ -118,9 +129,10 @@ const resumeData = {
     {
       title: `National University of Singapore
       School of Computing (SoC)`,
-      date: "Aug 2019 - Aug 2023",
+      date: `Aug 2019 - Aug 2023`,
       description: `Bachelor of Computing, Computer Science (Honours)
-      Specialization in Networking and Distributed Systems`,
+      Specialization in Networking and Distributed Systems
+      DSTA Merit Scholarship`,
     },
   ],
 
