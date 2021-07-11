@@ -19,6 +19,7 @@
 .profile_name .title {
   font-size: 13px;
   color: #777;
+  white-space: pre-line;
 }
 
 .profile_image {

@@ -9,8 +9,11 @@ import profilePic from "../assets/images/profilePic/profilePic.png";
 
 const resumeData = {
   name: "Wong Jun Long",
-  title: "NUS Computing (Computer Science) Year 3",
-  specialization: "Specialization - Networking and Distributed Systems",
+  title: `NUS Computing (Computer Science)
+  Year 3`,
+  specialization: `Specializations:
+  1. Networking & Distributed Systems
+  2. Database Systems`,
   profilePic: profilePic,
 
   // Button descriptions
@@ -38,11 +41,11 @@ const resumeData = {
     },
   },
 
-  about: `I am a Year 3 Computer Science student studying in the National University of Singapore (NUS) under the DSTA Merit Scholarship, with a specialization in Networking and Distributed Systems. I chose this focus area as Networking was the most interesting domain of study I was exposed to while studying in NUS.
+  about: `I am a Year 3 Computer Science student (Academic Year 2021/2022) studying in the National University of Singapore (NUS) under the DSTA Merit Scholarship, specializing in Networking & Distributed Systems and Database Systems. I chose these focus areas as they were the most interesting domains of study I was exposed to while studying in NUS.
   
   For professional work, my current area of interest lies in the Quality Assurance (QA) domain of Software Engineering. Specifically, I am interested in learning more about test automation techniques. Till date, I have a reasonable amount of exposure to QA, conducting GUI regression and API test automations for some of my internships. I foresee myself working as a professional QA Test Engineer in the future. Nonetheless, I am open to exploring other roles in Software Engineering for my own personal development and enrichment.
   
-  Apart from that, I have some experience working with ReactJS for frontend UI and Django RESTful API for backend databases. Please refer to my portfolio for the various works I have done with these technologies. Please note that my portfolio works are my personal projects. I am involved in external projects as well. However, I do not post projects that I have done for my clients, or which I have received salary renumerations or monetary awards from (e.g Internships, Competitions). There are prohibitory clauses in contracts I have signed which restricts me from doing so.
+  Apart from that, I have some experience working with ReactJS for front-end user interfaces and Django RESTful API for back-end databases. Please refer to my portfolio for the various works I have done with these technologies. Please note that my portfolio works are my personal projects. I am involved in external projects as well. However, I do not post projects that I have done for my clients, or which I have received salary renumerations or monetary awards from (e.g Internships, Competitions). There are prohibitory clauses in contracts I have signed which restricts me from doing so.
   
   My personal life philosophy is to always give new things a try if an opportunity arises. If there is an interesting project that I can work on, please do contact me over Telegram using the blue "Contact Me Here" button located at the top right hand corner of the site.
   `,
@@ -83,17 +86,17 @@ const resumeData = {
     {
       title: `NUS Faculty of Arts and Social Sciences
       Department of Psychology
-      Student Researcher (Frontend)`,
+      Student Researcher (Front-end)`,
       date: `07 June 2021 – Present`,
       description: `Roles and Responsibilities:
       1. Greenfield multi-step survey form creation using ReactJS. (Agenda - Collection of free associations to Singapore English words from site visitors)
       2. Wireframing of site design
-      3. GUI and Regression Testing for frontend interface`,
+      3. GUI and Regression Testing for front-end interface`,
     },
     {
       title: `Defence Science and Technology Agency (DSTA)
       Enterprise IT
-      Software Engineering Intern (Frontend)`,
+      Software Engineering Intern (Front-end)`,
       date: `10 May 2021 – Present`,
       description: `<Classified>`,
     },
@@ -131,18 +134,19 @@ const resumeData = {
       School of Computing (SoC)`,
       date: `Aug 2019 - Aug 2023`,
       description: `Bachelor of Computing, Computer Science (Honours)
-      Specialization in Networking and Distributed Systems
+      Specialization in Networking & Distributed Systems
+      Specialization in Database Systems
       DSTA Merit Scholarship`,
     },
   ],
 
   skills: [
     {
-      title: "FRONTEND",
+      title: "FRONT-END",
       description: ["ReactJS"],
     },
     {
-      title: "BACKEND",
+      title: "BACK-END",
       description: ["Django (REST Framework)"],
     },
     {
@@ -183,13 +187,8 @@ const resumeData = {
       ],
       title: "Personal Resume",
       caption: "A personal resume that I built using ReactJS",
-      description: `This resume was built by referencing to Samal Fazal's "React JS Resume" and Portfolio with Material UI playlist on Youtube.
-      I subsequently finetuned the resume to my personal liking.`,
+      description: `This resume was built using ReactJS Material-UI Framework.`,
       links: [
-        {
-          link: "https://www.youtube.com/playlist?list=PLISG6SSQ9nqyuuTjr2cDApJlY9-K3jrn1",
-          icon: <YouTubeIcon />,
-        },
         { link: "https://github.com/junlong4321/Resume", icon: <GitHubIcon /> },
         {
           link: "https://junlong4321.github.io/Resume/",
@@ -214,15 +213,15 @@ const resumeData = {
       description: `
       NUS Orbital is an independent software engineering project taken by year 1 NUS SoC students in teams of two.
 
-      This project was built using ReactJS (Frontend) and Django REST Framework (Backend), for NUS Orbital. Level of Difficulty attempted was Artemis (Extreme). The project was awarded the Judge's Choice Award for NUS Orbital 2020. Please refer to GitHub for URL link to the Google documentation of the project.
+      This project was built using ReactJS (Front-end) and Django REST Framework (Back-end), for NUS Orbital. Level of Difficulty attempted was Artemis (Extreme). The project was awarded the Judge's Choice Award for NUS Orbital 2020. Please refer to GitHub for URL link to the Google documentation of the project.
 
       Roles and Responsibilities:
-      - In charge of Backend, QA, and Deployments for project
-      - Built Backend RESTful API service using Python's Django REST Framework
+      - In charge of Back-end, QA, and Deployments for project
+      - Built Back-end RESTful API service using Python's Django REST Framework
       - Planned and executed smoke, regression, and API Test Cases for Quality Assurance
       - Implemented test automation Using TestProject's testing software for smoke and regression testing, and Postman for API testing
       - Introduced continuous integration using Jenkins to facilitate code deployments, and results publishing on Slack for diagnosis of bugs
-      - Deployed frontend ReactJS application using Heroku, backend Django application using PythonAnywhere, and Jenkins using Google Cloud VM instance
+      - Deployed front-end ReactJS application using Heroku, back-end Django application using PythonAnywhere, and Jenkins using Google Cloud VM instance
       
       Motivation :
       As of today, there is a lack of free financial analysis platforms over the internet. To gain access to expert financial analysis data, you have to pay for it over websites like Simply Wall Street and MorningStar, or consult expert financial advisors. Financial analysis data is not easily accessible and is not readily available for public consumption for the typical retail investor.
