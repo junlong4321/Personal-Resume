@@ -97,7 +97,7 @@ const resumeData = {
     },
     {
       title: `Defence Science and Technology Agency (DSTA)
-      Enterprise IT
+      Programme Centre 12 - Enterprise IT
       Software Engineering Intern (Front-end)`,
       date: `10 May 2021 – Present`,
       description: `<Classified>`,

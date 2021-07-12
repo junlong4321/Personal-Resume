@@ -1,5 +1,5 @@
 import { Grid } from "@material-ui/core";
-import ComputerIcon from "@material-ui/icons/Computer";
+import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import React from "react";
@@ -32,7 +32,7 @@ const Resume = () => {
             <TimelineEntry
               md={12}
               title={"Awards"}
-              icon={<ComputerIcon />}
+              icon={<EmojiEventsIcon />}
               data={resumeData.awards}
             />
             {/* Experiences */}
