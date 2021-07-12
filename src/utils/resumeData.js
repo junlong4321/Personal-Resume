@@ -1,4 +1,6 @@
+import DescriptionIcon from "@material-ui/icons/Description";
 import EmailIcon from "@material-ui/icons/Email";
+import GetAppIcon from "@material-ui/icons/GetApp";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LanguageIcon from "@material-ui/icons/Language";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -241,6 +243,10 @@ const resumeData = {
           link: "https://thefreemarket-production.herokuapp.com/",
           icon: <LanguageIcon />,
         },
+        {
+          link: "https://docs.google.com/document/d/1wFkyn4SZh9oDJtUM8PjQoil9PXARbTNlkCVFNHGsxWw/edit?usp=sharing/",
+          icon: <DescriptionIcon />,
+        },
       ],
     },
     {
@@ -265,6 +271,10 @@ const resumeData = {
       This project was made using Java, JavaFX, TestFX, and Gradle, and was part of the individual assessment component for CS2103T (Software Engineering).`,
       links: [
         { link: "https://github.com/junlong4321/ip", icon: <GitHubIcon /> },
+        {
+          link: "https://github.com/junlong4321/ip/releases/download/A-Release/duke.jar/",
+          icon: <GetAppIcon />,
+        },
       ],
     },
     {
@@ -308,6 +318,10 @@ const resumeData = {
         {
           link: "https://ay2021s1-cs2103t-t10-4.github.io/tp/",
           icon: <LanguageIcon />,
+        },
+        {
+          link: "https://github.com/AY2021S1-CS2103T-T10-4/tp/releases/download/v.1.4.1/tutorspet.jar/",
+          icon: <GetAppIcon />,
         },
       ],
     },
