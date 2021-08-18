@@ -89,7 +89,7 @@ const resumeData = {
       title: `NUS Faculty of Arts and Social Sciences
       Department of Psychology
       Student Researcher (Front-end)`,
-      date: `07 June 2021 – Present`,
+      date: `07 June 2021 – 31 August 2021 (3 Months)`,
       description: `Roles and Responsibilities:
       1. Greenfield multi-step survey form creation using ReactJS. (Agenda - Collection of free associations to Singapore English words from site visitors)
       2. Wireframing of site design
@@ -99,7 +99,7 @@ const resumeData = {
       title: `Defence Science and Technology Agency (DSTA)
       Programme Centre 12 - Enterprise IT
       Software Engineering Intern (Front-end)`,
-      date: `10 May 2021 – Present`,
+      date: `10 May 2021 – 30 July 2021 (3 Months)`,
       description: `<Classified>`,
     },
     {
