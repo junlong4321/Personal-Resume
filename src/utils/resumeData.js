@@ -149,13 +149,13 @@ const resumeData = {
     },
     {
       title: "BACK-END",
-      description: ["Django (REST Framework)"],
+      description: ["Django (REST Framework)", "PostgreSQL"],
     },
     {
       title: "QUALITY ASSURANCE",
       description: [
         "Katalon Studios",
-        "Postman API Test Automation",
+        "Postman",
         "TestProject",
       ],
     },
