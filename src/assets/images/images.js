@@ -29,6 +29,11 @@ const IMAGES = {
   tutorsPet7: require("./tutorsPet/tutorsPet7.png").default,
   tutorsPet8: require("./tutorsPet/tutorsPet8.png").default,
   tutorsPet9: require("./tutorsPet/tutorsPet9.png").default,
+
+  swow1: require("./swow/swow1.png").default,
+  swow2: require("./swow/swow2.png").default,
+  swow3: require("./swow/swow3.png").default,
+  swow4: require("./swow/swow4.png").default,
 };
 
 export default IMAGES;

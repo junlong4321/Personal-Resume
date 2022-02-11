@@ -15,7 +15,7 @@ const resumeData = {
   Year 3`,
   specialization: `Specializations:
   1. Networking & Distributed Systems
-  2. Database Systems`,
+  2. Software Engineering`,
   profilePic: profilePic,
 
   // Button descriptions
@@ -43,11 +43,11 @@ const resumeData = {
     },
   },
 
-  about: `I am a Year 3 Computer Science student (Academic Year 2021/2022) studying in the National University of Singapore (NUS) under the DSTA Merit Scholarship, specializing in Networking & Distributed Systems and Database Systems. I chose these focus areas as they were the most interesting domains of study I was exposed to while studying in NUS.
+  about: `I am a Year 3 Computer Science student (Academic Year 2021/2022) studying in the National University of Singapore (NUS) under the DSTA Merit Scholarship, specializing in Networking & Distributed Systems and Software Engineering.
   
   For professional work, my current area of interest lies in the Quality Assurance (QA) domain of Software Engineering. Specifically, I am interested in learning more about test automation techniques. Till date, I have a reasonable amount of exposure to QA, conducting GUI regression and API test automations for some of my internships. I foresee myself working as a professional QA Test Engineer in the future. Nonetheless, I am open to exploring other roles in Software Engineering for my own personal development and enrichment.
   
-  Apart from that, I have some experience working with ReactJS for front-end user interfaces and Django RESTful API for back-end databases. Please refer to my portfolio for the various works I have done with these technologies. Please note that my portfolio works are my personal projects. I am involved in external projects as well. However, due to prohibitory clauses, I do not post projects that I have done for my clients, or which I have received salary renumerations or monetary awards from (e.g Internships, Competitions).
+  Apart from that, I have some experience working with ReactJS for front-end user interfaces and Django RESTful API for back-end databases. Please refer to my portfolio for the various works I have done with these technologies.
   
   My personal life philosophy is to always give new things a try if an opportunity arises. If there is an interesting project that I can work on, please do contact me over Telegram using the blue "Contact Me Here" button located at the top right hand corner of the site.
   `,
@@ -137,8 +137,23 @@ const resumeData = {
       date: `Aug 2019 - Aug 2023`,
       description: `Bachelor of Computing, Computer Science (Honours)
       Specialization in Networking & Distributed Systems
-      Specialization in Database Systems
-      DSTA Merit Scholarship`,
+      Specialization in Software Engineering
+      DSTA Merit Scholarship
+      
+      Specialization Modules:
+      CS2102 (Database Systems)
+      CS3103 (Computer Network Practices)
+      CS3219 (Software Engineering Principles and Patterns) <TBC>
+      CS4218 (Software Testing) <TBC>
+      CS4222 (Wireless Networking) <TBC>
+      CS4226 (Internet Architecture) <TBC>
+      
+      Unrestricted Electives:
+      ACC1701X (Accounting for Decision Makers)
+      FIN2704X (Finance)
+      FIN3701B (Corporate Finance)
+      FIN3702A (Investment Analysis and Portfolio Management)
+      FIN3720 (Financial Statement Analysis)`,
     },
   ],
 
@@ -153,11 +168,7 @@ const resumeData = {
     },
     {
       title: "QUALITY ASSURANCE",
-      description: [
-        "Katalon Studios",
-        "Postman",
-        "TestProject",
-      ],
+      description: ["Katalon Studios", "Postman", "TestProject"],
     },
     {
       title: "LANGUAGES",
@@ -322,6 +333,25 @@ const resumeData = {
         {
           link: "https://github.com/AY2021S1-CS2103T-T10-4/tp/releases/download/v.1.4.1/tutorspet.jar/",
           icon: <GetAppIcon />,
+        },
+      ],
+    },
+    {
+      tag: "ReactJS",
+      images: [IMAGES.swow1, IMAGES.swow2, IMAGES.swow3, IMAGES.swow4],
+      title: "A Small World of Singlish Words",
+      caption:
+        "Multi-step survey form intended for the collection of free associations to Singapore English Words",
+      description: `This front-end survey form was built for an NUS professor with the intention of collecting word associations to study the structure of the Singapore mental lexicon.
+
+      I was in charge of developing the front-end with ReactJS (Greenfield Project) over the duration of three months between June and August 2021.
+
+      I have since handed the front-end over to a research assistant to continue the project for NUS. Thus, please note that the URL link below may not be working as it belongs to NUS.
+`,
+      links: [
+        {
+          link: "https://singlishwords.nus.edu.sg/",
+          icon: <LanguageIcon />,
         },
       ],
     },
