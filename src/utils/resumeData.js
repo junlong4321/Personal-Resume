@@ -231,7 +231,7 @@ const resumeData = {
       description: `
       NUS Orbital is an independent software engineering project taken by year 1 NUS SoC students in teams of two.
 
-      This project was built using ReactJS (Front-end) and Django REST Framework (Back-end), for NUS Orbital. Level of Difficulty attempted was Artemis (Extreme). The project was awarded the Judge's Choice Award for NUS Orbital 2020. Please refer to GitHub for URL link to the Google documentation of the project.
+      This project was built using ReactJS (Front-end) and Django REST Framework (Back-end), for NUS Orbital. Level of Difficulty attempted was Artemis (Extreme). The project was awarded the Judge's Choice Award for NUS Orbital 2020.
 
       Roles and Responsibilities:
       - In charge of Back-end, QA, and Deployments for project
@@ -351,7 +351,7 @@ const resumeData = {
 
       I was in charge of developing the front-end with ReactJS (Greenfield Project) over the duration of three months between June and August 2021.
 
-      I have since handed the front-end over to a research assistant to continue the project for NUS. Thus, please note that the URL link below may not be working as it belongs to NUS.
+      I have since handed the front-end over to a research assistant to continue the project for NUS. Thus, please note that the URL link below may not be working as the site belongs to NUS.
 `,
       links: [
         {
