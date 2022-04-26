@@ -91,7 +91,7 @@ const resumeData = {
       Student Researcher (Front-end)`,
       date: `07 June 2021 – 31 August 2021 (3 Months)`,
       description: `Roles and Responsibilities:
-      1. Greenfield multi-step survey form creation using ReactJS. (Agenda - Collection of free associations to Singapore English words from site visitors)
+      1. Greenfield multi-step survey form creation using ReactJS (Agenda - Collection of free associations to Singapore English words from site visitors)
       2. Wireframing of site design
       3. GUI and Regression Testing for front-end interface`,
     },
@@ -101,7 +101,7 @@ const resumeData = {
       Software Engineering Intern (Front-end)`,
       date: `10 May 2021 – 30 July 2021 (3 Months)`,
       description: `Roles and Responsibilities:
-      1. Front-end Development with ReactJS.`,
+      1. Front-end Development with ReactJS`,
     },
     {
       title: `NUS Engineering
