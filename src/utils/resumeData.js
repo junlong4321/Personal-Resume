@@ -100,7 +100,8 @@ const resumeData = {
       Programme Centre 12 - Enterprise IT
       Software Engineering Intern (Front-end)`,
       date: `10 May 2021 – 30 July 2021 (3 Months)`,
-      description: `<Classified>`,
+      description: `Roles and Responsibilities:
+      1. Front-end Development with ReactJS.`,
     },
     {
       title: `NUS Engineering
@@ -153,6 +154,8 @@ const resumeData = {
       FIN2704X (Finance)
       FIN3701B (Corporate Finance)
       FIN3702A (Investment Analysis and Portfolio Management)
+      FIN3715 (Risk and Insurance) <TBC>
+      FIN3719B (Household Finance) <TBC>
       FIN3720 (Financial Statement Analysis)`,
     },
   ],
