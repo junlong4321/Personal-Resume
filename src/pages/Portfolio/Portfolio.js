@@ -69,6 +69,8 @@ const Portfolio = () => {
           value={tabValue}
           indicatorColor="white"
           className="customTabs"
+          variant="scrollable"
+          scrollButtons="on"
           onChange={(event, newValue) => setTabValue(newValue)}
         >
           {/* If the current tab is ALL, assign className as customTabs_item active */}
@@ -82,7 +84,7 @@ const Portfolio = () => {
           />
           {/* Filter tags to get unique tags, then map through tags and create project tabs along side with "All"*/}
           {/* ie we will get something like All -- React -- Django -- Java*/}
-          {[...new Set(resumeData.projects.map((item) => item.tag))].map(
+          {[...new Set(resumeData.portfolioTags.map((tag) => tag))].map(
             (tag) => (
               <Tab
                 label={tag}
@@ -107,7 +109,7 @@ const Portfolio = () => {
               the project with the relevant tag*/}
               {/* md = {4} means each grid takes 4 units of spacing out of 12 units in each row
               ie max 12/4 = 3 cards */}
-              {tabValue === project.tag || tabValue === "All" ? (
+              {project.tag.includes(tabValue) || tabValue === "All" ? (
                 <Grid item xs={12} sm={6} md={4}>
                   <Grow in timeout={1000}>
                     <Card

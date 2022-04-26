@@ -34,6 +34,13 @@ const IMAGES = {
   swow2: require("./swow/swow2.png").default,
   swow3: require("./swow/swow3.png").default,
   swow4: require("./swow/swow4.png").default,
+
+  spa1: require("./spa/spa1.png").default,
+  spa2: require("./spa/spa2.png").default,
+  spa3: require("./spa/spa3.png").default,
+  spa4: require("./spa/spa4.png").default,
+  spa5: require("./spa/spa5.png").default,
+  spa6: require("./spa/spa6.png").default,
 };
 
 export default IMAGES;

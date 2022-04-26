@@ -1,3 +1,7 @@
+.box_size {
+  width:10px;
+}
+
 /* Tabs */
 .customTabs .active {
   color: var(--underline-color) !important;

@@ -12,7 +12,7 @@ import profilePic from "../assets/images/profilePic/profilePic.png";
 const resumeData = {
   name: "Wong Jun Long",
   title: `NUS Computing (Computer Science)
-  Year 3`,
+  Year 4`,
   specialization: `Specializations:
   1. Networking & Distributed Systems
   2. Software Engineering`,
@@ -43,7 +43,7 @@ const resumeData = {
     },
   },
 
-  about: `I am a Year 3 Computer Science student (Academic Year 2021/2022) studying in the National University of Singapore (NUS) under the DSTA Merit Scholarship, specializing in Networking & Distributed Systems and Software Engineering.
+  about: `I am a Year 4 Computer Science student (Academic Year 2022/2023) studying in the National University of Singapore (NUS) under the DSTA Merit Scholarship, specializing in Networking & Distributed Systems and Software Engineering.
   
   For professional work, my current area of interest lies in the Quality Assurance (QA) domain of Software Engineering. Specifically, I am interested in learning more about test automation techniques. Till date, I have a reasonable amount of exposure to QA, conducting GUI regression and API test automations for some of my internships. I foresee myself working as a professional QA Test Engineer in the future. Nonetheless, I am open to exploring other roles in Software Engineering for my own personal development and enrichment.
   
@@ -188,11 +188,13 @@ const resumeData = {
     },
   ],
 
+  portfolioTags: ["ReactJS", "Django", "Java", "Quality Assurance"],
+
   // First image in array of images is used as the card image before user clicks
   // into card
   projects: [
     {
-      tag: "ReactJS",
+      tag: ["ReactJS"],
       images: [
         IMAGES.personalResume1,
         IMAGES.personalResume2,
@@ -210,7 +212,7 @@ const resumeData = {
       ],
     },
     {
-      tag: "Django",
+      tag: ["Django", "Quality Assurance"],
       images: [
         IMAGES.theFreeMarket1,
         IMAGES.theFreeMarket2,
@@ -261,7 +263,7 @@ const resumeData = {
       ],
     },
     {
-      tag: "Java",
+      tag: ["Java"],
       images: [
         IMAGES.kimJongDuke1,
         IMAGES.kimJongDuke2,
@@ -289,7 +291,7 @@ const resumeData = {
       ],
     },
     {
-      tag: "Java",
+      tag: ["Java"],
       images: [
         IMAGES.tutorsPet1,
         IMAGES.tutorsPet2,
@@ -337,7 +339,7 @@ const resumeData = {
       ],
     },
     {
-      tag: "ReactJS",
+      tag: ["ReactJS"],
       images: [IMAGES.swow1, IMAGES.swow2, IMAGES.swow3, IMAGES.swow4],
       title: "A Small World of Singlish Words",
       caption:
@@ -352,6 +354,36 @@ const resumeData = {
         {
           link: "https://singlishwords.nus.edu.sg/",
           icon: <LanguageIcon />,
+        },
+      ],
+    },
+    {
+      tag: ["Quality Assurance"],
+      images: [IMAGES.spa1, IMAGES.spa2, IMAGES.spa3, IMAGES.spa4, IMAGES.spa5, IMAGES.spa6],
+      title: "Static Program Analyzer",
+      caption:
+        "NUS Year 3 CS3203 (Software Engineering Project)",
+      description: `A Static Program Analyzer (SPA) was built for this software engineering module. A SPA is a program that analyzes and provide useful insights into source codes. For example, a SPA is able to detect the number of variables used/modified in the source code. In this module, the SPA built analyzes code written in a fictional programming language called SIMPLE.
+
+      I was in charge of Quality Assurance in my team. In particular, I designed system, load, and stress test plans and wrote test cases to validate the correctness of the SPA built by my team.
+      
+      Please refer to Sections 5.3 - 5.6 of the first document icon from the left for the test designs I created for testing. The name of the document is SPA Report.
+      
+      In addition, I have attached all system, load, and stress test cases that I have written for the module in the second and third document icons.
+      
+      Repository link is omitted because the CS3203 organization on GitHub is private.`,
+      links: [
+        {
+          link: "https://docs.google.com/document/d/1XYI5KdK03m7J-BqfsbHaePc-UAGPapQJ/edit?usp=sharing&ouid=110170651096407551597&rtpof=true&sd=true",
+          icon: <DescriptionIcon />,
+        },
+        {
+          link: "https://docs.google.com/document/d/1H99cCeFMaCKvBbT4pKl-TrWNeDrv-KUjJgJDtiiu590/edit?usp=sharing",
+          icon: <DescriptionIcon />,
+        },
+        {
+          link: "https://docs.google.com/document/d/1t_Zai50CD6vFtD8FE9SRzTpldHk39s2iO5TsNHm6FNA/edit?usp=sharing",
+          icon: <DescriptionIcon />,
         },
       ],
     },
