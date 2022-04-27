@@ -1,5 +1,6 @@
 import DescriptionIcon from "@material-ui/icons/Description";
 import EmailIcon from "@material-ui/icons/Email";
+import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
 import GetAppIcon from "@material-ui/icons/GetApp";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LanguageIcon from "@material-ui/icons/Language";
@@ -191,7 +192,7 @@ const resumeData = {
     },
   ],
 
-  portfolioTags: ["ReactJS", "Django", "Java", "Quality Assurance"],
+  portfolioTags: ["ReactJS", "Quality Assurance", "Django", "Java"],
 
   // First image in array of images is used as the card image before user clicks
   // into card
@@ -262,6 +263,14 @@ const resumeData = {
         {
           link: "https://docs.google.com/document/d/1wFkyn4SZh9oDJtUM8PjQoil9PXARbTNlkCVFNHGsxWw/edit?usp=sharing/",
           icon: <DescriptionIcon />,
+        },
+        {
+          link: "https://credentials.nus.edu.sg/0062649d-d440-48c5-ae11-e30b20d3bf79",
+          icon : <EmojiEventsIcon />,
+        },
+        {
+          link: "https://credentials.nus.edu.sg/0bbc1d11-405f-4637-8180-9e7a295abf28",
+          icon : <EmojiEventsIcon />,
         },
       ],
     },
@@ -362,10 +371,16 @@ const resumeData = {
     },
     {
       tag: ["Quality Assurance"],
-      images: [IMAGES.spa1, IMAGES.spa2, IMAGES.spa3, IMAGES.spa4, IMAGES.spa5, IMAGES.spa6],
+      images: [
+        IMAGES.spa1,
+        IMAGES.spa2,
+        IMAGES.spa3,
+        IMAGES.spa4,
+        IMAGES.spa5,
+        IMAGES.spa6,
+      ],
       title: "Static Program Analyzer",
-      caption:
-        "NUS Year 3 CS3203 (Software Engineering Project)",
+      caption: "NUS Year 3 CS3203 (Software Engineering Project)",
       description: `A Static Program Analyzer (SPA) was built for this software engineering module. A SPA is a program that analyzes and provide useful insights into source codes. For example, a SPA is able to detect the number of variables used/modified in the source code. In this module, the SPA built analyzes code written in a fictional programming language called SIMPLE.
 
       I was in charge of Quality Assurance in my team. In particular, I designed system, load, and stress test plans and wrote test cases to validate the correctness of the SPA built by my team.

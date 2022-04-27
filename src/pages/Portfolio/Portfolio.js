@@ -11,7 +11,7 @@ import {
   Grow,
   Tab,
   Tabs,
-  Typography
+  Typography,
 } from "@material-ui/core";
 import React, { useState } from "react";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
@@ -117,7 +117,7 @@ const Portfolio = () => {
                       onClick={() => setProjectDialog(project)}
                     >
                       <CardActionArea>
-                        {/* Default card image is project.images[0]*/ }
+                        {/* Default card image is project.images[0]*/}
                         <CardMedia
                           className="customCard_image"
                           image={project.images[0]}
