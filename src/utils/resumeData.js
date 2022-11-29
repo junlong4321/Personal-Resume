@@ -1,11 +1,12 @@
 import DescriptionIcon from "@material-ui/icons/Description";
 import EmailIcon from "@material-ui/icons/Email";
-import EmojiEventsIcon from '@material-ui/icons/EmojiEvents';
+import EmojiEventsIcon from "@material-ui/icons/EmojiEvents";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LanguageIcon from "@material-ui/icons/Language";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import YouTubeIcon from "@material-ui/icons/YouTube";
+import SlideshowIcon from "@material-ui/icons/Slideshow";
 import React from "react";
 import IMAGES from "../assets/images/images.js";
 import profilePic from "../assets/images/profilePic/profilePic.png";
@@ -14,9 +15,8 @@ const resumeData = {
   name: "Wong Jun Long",
   title: `NUS Computing (Computer Science)
   Year 4`,
-  specialization: `Specializations:
-  1. Networking & Distributed Systems
-  2. Software Engineering`,
+  specialization: `Specialization:
+  Networking & Distributed Systems`,
   profilePic: profilePic,
 
   // Button descriptions
@@ -44,13 +44,11 @@ const resumeData = {
     },
   },
 
-  about: `I am a Year 4 Computer Science student (Academic Year 2022/2023) studying in the National University of Singapore (NUS) under the DSTA Merit Scholarship, specializing in Networking & Distributed Systems and Software Engineering.
+  about: `I am a Year 4 Computer Science student (Academic Year 2022/2023) studying in the National University of Singapore (NUS) under the DSTA Merit Scholarship, specializing in Networking & Distributed Systems.
   
-  For professional work, my current area of interest lies in the Quality Assurance (QA) domain of Software Engineering. Specifically, I am interested in learning more about test automation techniques. Till date, I have a reasonable amount of exposure to QA, conducting GUI regression and API test automations for some of my internships. I foresee myself working as a professional QA Test Engineer in the future. Nonetheless, I am open to exploring other roles in Software Engineering for my own personal development and enrichment.
+  I enjoy developing front-end web applications with ReactJS and spend most of my development time working on the front-end. Apart from that, I have some experience working with RESTful API and SQL for back-end databases. Please refer to my portfolio for the various works I have done.
   
-  Apart from that, I have some experience working with ReactJS for front-end user interfaces and Django RESTful API for back-end databases. Please refer to my portfolio for the various works I have done with these technologies.
-  
-  My personal life philosophy is to always give new things a try if an opportunity arises. If there is an interesting project that I can work on, please do contact me over Telegram using the blue "Contact Me Here" button located at the top right hand corner of the site.
+  For work opportunities, please do contact me over Telegram using the blue "Contact Me Here" button located at the top right hand corner of the site.
   `,
 
   awards: [
@@ -139,24 +137,21 @@ const resumeData = {
       date: `Aug 2019 - Aug 2023`,
       description: `Bachelor of Computing, Computer Science (Honours)
       Specialization in Networking & Distributed Systems
-      Specialization in Software Engineering
       DSTA Merit Scholarship
       
       Specialization Modules:
       CS2102 (Database Systems)
       CS3103 (Computer Network Practices)
-      CS3219 (Software Engineering Principles and Patterns) <TBC>
-      CS4218 (Software Testing) <TBC>
+      CS3219 (Software Engineering Principles and Patterns)
       CS4222 (Wireless Networking) <TBC>
-      CS4226 (Internet Architecture) <TBC>
+      CS4225 (Big Data Systems for Data Science)
+      CS4226 (Internet Architecture)
       
       Unrestricted Electives:
       ACC1701X (Accounting for Decision Makers)
       FIN2704X (Finance)
       FIN3701B (Corporate Finance)
-      FIN3702A (Investment Analysis and Portfolio Management)
-      FIN3715 (Risk and Insurance) <TBC>
-      FIN3719B (Household Finance) <TBC>
+      FIN3702A (Investment Analysis and Portfolio Management,
       FIN3720 (Financial Statement Analysis)`,
     },
   ],
@@ -176,7 +171,7 @@ const resumeData = {
     },
     {
       title: "LANGUAGES",
-      description: ["Javascript", "Java", "Python"],
+      description: ["Typescript", "Java", "Python"],
     },
     {
       title: "SOURCE CONTROL",
@@ -184,11 +179,11 @@ const resumeData = {
     },
     {
       title: "CI / CD",
-      description: ["Jenkins"],
+      description: ["Github Actions", "Jenkins"],
     },
     {
       title: "PROJECT MGT",
-      description: ["Jira", "Confluence", "Trello"],
+      description: ["Github Projects", "Jira", "Trello"],
     },
   ],
 
@@ -197,24 +192,6 @@ const resumeData = {
   // First image in array of images is used as the card image before user clicks
   // into card
   projects: [
-    {
-      tag: ["ReactJS"],
-      images: [
-        IMAGES.personalResume1,
-        IMAGES.personalResume2,
-        IMAGES.personalResume3,
-      ],
-      title: "Personal Resume",
-      caption: "A personal resume that I built using ReactJS",
-      description: `This resume was built using ReactJS Material-UI Framework.`,
-      links: [
-        { link: "https://github.com/junlong4321/Resume", icon: <GitHubIcon /> },
-        {
-          link: "https://junlong4321.github.io/Resume/",
-          icon: <LanguageIcon />,
-        },
-      ],
-    },
     {
       tag: ["Django", "Quality Assurance"],
       images: [
@@ -266,11 +243,11 @@ const resumeData = {
         },
         {
           link: "https://credentials.nus.edu.sg/0062649d-d440-48c5-ae11-e30b20d3bf79",
-          icon : <EmojiEventsIcon />,
+          icon: <EmojiEventsIcon />,
         },
         {
           link: "https://credentials.nus.edu.sg/0bbc1d11-405f-4637-8180-9e7a295abf28",
-          icon : <EmojiEventsIcon />,
+          icon: <EmojiEventsIcon />,
         },
       ],
     },
@@ -351,25 +328,6 @@ const resumeData = {
       ],
     },
     {
-      tag: ["ReactJS"],
-      images: [IMAGES.swow1, IMAGES.swow2, IMAGES.swow3, IMAGES.swow4],
-      title: "A Small World of Singlish Words",
-      caption:
-        "Multi-step survey form intended for the collection of free associations to Singapore English Words",
-      description: `This front-end survey form was built for an NUS professor with the intention of collecting word associations to study the structure of the Singapore mental lexicon.
-
-      I was in charge of developing the front-end with ReactJS (Greenfield Project) over the duration of three months between June and August 2021.
-
-      I have since handed the front-end over to a research assistant to continue the project for NUS. Thus, please note that the URL link below may not be working as the site belongs to NUS.
-`,
-      links: [
-        {
-          link: "https://singlishwords.nus.edu.sg/",
-          icon: <LanguageIcon />,
-        },
-      ],
-    },
-    {
       tag: ["Quality Assurance"],
       images: [
         IMAGES.spa1,
@@ -380,7 +338,7 @@ const resumeData = {
         IMAGES.spa6,
       ],
       title: "Static Program Analyzer",
-      caption: "NUS Year 3 CS3203 (Software Engineering Project)",
+      caption: "NUS Year 3 CS3203 Software Engineering Project",
       description: `A Static Program Analyzer (SPA) was built for this software engineering module. A SPA is a program that analyzes and provide useful insights into source codes. For example, a SPA is able to detect the number of variables used/modified in the source code. In this module, the SPA built analyzes code written in a fictional programming language called SIMPLE.
 
       I was in charge of Quality Assurance in my team. In particular, I designed system, load, and stress test plans and wrote test cases to validate the correctness of the SPA built by my team.
@@ -402,6 +360,94 @@ const resumeData = {
         {
           link: "https://docs.google.com/document/d/1t_Zai50CD6vFtD8FE9SRzTpldHk39s2iO5TsNHm6FNA/edit?usp=sharing",
           icon: <DescriptionIcon />,
+        },
+      ],
+    },
+    {
+      tag: ["ReactJS"],
+      images: [
+        IMAGES.codeCollab1,
+        IMAGES.codeCollab2,
+        IMAGES.codeCollab3,
+        IMAGES.codeCollab4,
+        IMAGES.codeCollab5,
+        IMAGES.codeCollab6,
+        IMAGES.codeCollab7,
+        IMAGES.codeCollab8,
+        IMAGES.codeCollab9,
+        IMAGES.codeCollab10,
+        IMAGES.codeCollab11,
+        IMAGES.codeCollab12,
+        IMAGES.codeCollab13,
+        IMAGES.codeCollab14,
+      ],
+      title: "CodeCollab",
+      caption:
+        "NUS Year 4 CS3219 Software Engineering Principles and Patterns, Team Project Component - CodeCollab",
+      description: `CodeCollab was developed in the module CS3219 Software Engineering Principles and Patterns in AY2022/2023 Semester 1 to fulfill module project requirements. My team comprised of 4 NUS Computer Science students.
+
+      I worked on the project as a Designer and Front-end Developer. The technical and non-technical sections showcase my contributions to the project.
+
+      Technical
+        • Designed wireframes by following an iterative prototyping process of assessing problem, designing by generating ideas, building prototype using subset of ideas generated, and assessing result using user testing until a viable product has been achieved.
+        • Adopted UI/UX best practices which caters to human visual perception, long/short-term memory and gulf bridging to deliver an intuitive interface to end-users.
+        • Implemented wireframe designs for all front-end pages in code using React components.
+        • Wrote a Python script to scrape questions from LeetCode back-end.
+        • Integrated backend statistics API into the front-end dashboard.
+        • Implemented end-to-end test cases to validate that users can change their display name and password and that the statistics API renders valid dashboard statistics.
+
+        Non-Technical
+        • Reviewed PR for group members.
+        • Worked on the Introduction, Project Development Process, Statistics Component, and Enhancement Suggestion portions of the report.
+        • Assisted the team in the selection of a suitable slide deck for presentation.
+        
+        Project Background
+        • Students applying for jobs in the computing industry often face challenging technical interviews. During these interviews, students are expected to solve algorithmic problems and implement solutions in code. However, many students may not be well-equipped to handle the rigor of these interviews. Some pain points experienced may include being unable to solve the given problem or an inability to communicate thought processes to the interviewer. Moreover, repetitive practice of algorithmic problems can be taxing and mundane.
+        
+        Purpose
+        • To address the above pain points, the team has created a collaborative interview preparation platform called CodeCollab to improve the technical proficiency and communication skills of users. 
+        
+        CodeCollab
+        • In CodeCollab, users can select their choice of programming language and match with peers to practice interview questions together using a shared code editor. Users will be able to chat with one another and view each other in real-time over video streaming. This will allow users to practice their communication skills and hone their ability to communicate technical concepts to other parties. Users will also be able to run their code submissions and verify the correctness of their code using CodeCollab’s submission feature.
+        
+        To encourage users to set goals for themselves and track their progress towards their goals, CodeCollab has integrated a dashboard which provides insights into the user’s activity on the website. Users will be able to track the number of questions attempted for each difficulty level, time taken for each attempt of the past month, topics and the number of questions related to the topic attempted, previous peer collaborators, and number of code submissions per day of the past year.        
+        `,
+      links: [
+        {
+          link: "https://drive.google.com/file/d/1qdSngFwmB4mxERc8O3-5Fu4IqNQPKLkC/view?usp=sharing",
+          icon: <DescriptionIcon />,
+        },
+        {
+          link: "https://docs.google.com/presentation/d/17hQ0dPQENkTkH4jJ2FQcfetdns1XvcAomvIklYzUwN0/edit?usp=sharing",
+          icon: <SlideshowIcon />,
+        },
+      ],
+    },
+    {
+      tag: ["ReactJS"],
+      images: [IMAGES.swow1, IMAGES.swow2, IMAGES.swow3, IMAGES.swow4],
+      title: "A Small World of Singlish Words",
+      caption:
+        "Multi-step survey form intended for the collection of free associations to Singapore English Words",
+      description: `This front-end survey form was built for an NUS professor with the intention of collecting word associations to study the structure of the Singapore mental lexicon.
+
+      I was in charge of developing the front-end with ReactJS over the duration of three months between June and August 2021.`,
+    },
+    {
+      tag: ["ReactJS"],
+      images: [
+        IMAGES.personalResume1,
+        IMAGES.personalResume2,
+        IMAGES.personalResume3,
+      ],
+      title: "Personal Resume",
+      caption: "A personal resume that I built using ReactJS",
+      description: `This resume was built using ReactJS Material-UI Framework.`,
+      links: [
+        { link: "https://github.com/junlong4321/Resume", icon: <GitHubIcon /> },
+        {
+          link: "https://junlong4321.github.io/Resume/",
+          icon: <LanguageIcon />,
         },
       ],
     },

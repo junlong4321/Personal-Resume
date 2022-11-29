@@ -41,6 +41,21 @@ const IMAGES = {
   spa4: require("./spa/spa4.png").default,
   spa5: require("./spa/spa5.png").default,
   spa6: require("./spa/spa6.png").default,
+
+  codeCollab1: require("./codeCollab/logo.png").default,
+  codeCollab2: require("./codeCollab/signup.png").default,
+  codeCollab3: require("./codeCollab/emailVerification.png").default,
+  codeCollab4: require("./codeCollab/passwordReset.png").default,
+  codeCollab5: require("./codeCollab/displayName.png").default,
+  codeCollab6: require("./codeCollab/passwordUpdate.png").default,
+  codeCollab7: require("./codeCollab/dashboard.png").default,
+  codeCollab8: require("./codeCollab/selection.png").default,
+  codeCollab9: require("./codeCollab/matching.png").default,
+  codeCollab10: require("./codeCollab/room.png").default,
+  codeCollab11: require("./codeCollab/chat.png").default,
+  codeCollab12: require("./codeCollab/video.png").default,
+  codeCollab13: require("./codeCollab/submission.png").default,
+  codeCollab14: require("./codeCollab/compilation.png").default,
 };
 
 export default IMAGES;

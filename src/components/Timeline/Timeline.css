@@ -15,6 +15,7 @@
 
 .timeline .MuiTimelineItem-root {
   min-height: 0px;
+  padding-top: 10px;
 }
 
 .timeline .MuiTimelineItem-missingOppositeContent:before {
