@@ -242,10 +242,6 @@ const resumeData = {
           icon: <GitHubIcon />,
         },
         {
-          link: "https://thefreemarket-production.herokuapp.com/",
-          icon: <LanguageIcon />,
-        },
-        {
           link: "https://docs.google.com/document/d/1wFkyn4SZh9oDJtUM8PjQoil9PXARbTNlkCVFNHGsxWw/edit?usp=sharing/",
           icon: <DescriptionIcon />,
         },
