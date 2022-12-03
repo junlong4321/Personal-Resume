@@ -85,6 +85,14 @@ const resumeData = {
 
   experiences: [
     {
+      title: `Defence Science and Technology Agency (DSTA)
+      Programme Centre 12 - Enterprise IT
+      Software Engineering Intern (Back-end)`,
+      date: `09 May 2022 – 29 July 2022 (3 Months)`,
+      description: `Roles and Responsibilities:
+      1. Database remodelling and enhancement with Qlik Sense`,
+    },
+    {
       title: `NUS Faculty of Arts and Social Sciences
       Department of Psychology
       Student Researcher (Front-end)`,
