@@ -142,7 +142,7 @@ const resumeData = {
     {
       title: `National University of Singapore
       School of Computing (SoC)`,
-      date: `Aug 2019 - Aug 2023`,
+      date: `Aug 2019 - Jun 2023`,
       description: `Bachelor of Computing, Computer Science (Honours)
       Specialization in Networking & Distributed Systems
       DSTA Merit Scholarship
@@ -151,7 +151,7 @@ const resumeData = {
       CS2102 (Database Systems)
       CS3103 (Computer Network Practices)
       CS3219 (Software Engineering Principles and Patterns)
-      CS4222 (Wireless Networking) <TBC>
+      CS4222 (Wireless Networking)
       CS4225 (Big Data Systems for Data Science)
       CS4226 (Internet Architecture)
       

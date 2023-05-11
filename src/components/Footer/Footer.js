@@ -7,13 +7,13 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer_left">
-        <Typography className="footer_name">Resume -- {resumeData.name}</Typography>
+        <Typography className="footer_name">
+          Resume -- {resumeData.name}
+        </Typography>
       </div>
       <div className="footer_right">
         <Typography className="footer_copyright">
           Developed and Finetuned by {resumeData.name} using ReactJS
-          <br />
-          Completed in May 2021
           {/* <br />
           Referenced -- {" "}
           <a
